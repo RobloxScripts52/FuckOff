@@ -1,0 +1,47 @@
+	local fuckoffnotsupported = Instance.new("ScreenGui")
+	local loadnotsupported = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local oq = Instance.new("TextLabel")
+	fuckoffnotsupported.Name = "fuckoffnotsupported"
+	fuckoffnotsupported.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	fuckoffnotsupported.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	loadnotsupported.Name = "loadnotsupported"
+	loadnotsupported.Parent = fuckoffnotsupported
+	loadnotsupported.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	loadnotsupported.Position = UDim2.new(0.458854169, 0, 0.402948409, 0)
+	loadnotsupported.Size = UDim2.new(0, 157, 0, 157)
+	UICorner.Parent = loadnotsupported
+	TextLabel.Parent = loadnotsupported
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.Position = UDim2.new(-0.133757964, 0, 0.369426727, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 41)
+	TextLabel.Font = Enum.Font.SourceSansBold
+	TextLabel.Text = "Fuck Off"
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+	oq.Name = "oq"
+	oq.Parent = loadnotsupported
+	oq.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	oq.BackgroundTransparency = 1.000
+	oq.Position = UDim2.new(0.0318471342, 0, 0.700636983, 0)
+	oq.Size = UDim2.new(0, 147, 0, 32)
+	oq.Font = Enum.Font.SourceSansBold
+	oq.Text = "Your Game Is Not Supported."
+	oq.TextColor3 = Color3.fromRGB(0, 0, 0)
+	oq.TextScaled = true
+	oq.TextSize = 14.000
+	oq.TextWrapped = true
+	local function CNWC_fake_script()
+		local script = Instance.new('LocalScript', fuckoffnotsupported)
+		script.Parent.loadnotsupported.Visible = true
+		script.Parent.loadnotsupported.oq.Visible = false
+		wait(2.6)
+		script.Parent.loadnotsupported.oq.Visible = true
+		wait(2.6)
+		script.Parent.loadnotsupported.Visible = false
+	end
+	coroutine.wrap(CNWC_fake_script)()
