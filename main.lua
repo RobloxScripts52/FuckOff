@@ -250,11 +250,6 @@ local function KCKXDU_fake_script()
 end
 coroutine.wrap(KCKXDU_fake_script)()
 elseif game.PlaceId == 286090429 then
-  -- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local fuckoff = Instance.new("ScreenGui")
 local load = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -286,21 +281,15 @@ local aimbotbutt = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local silentaimbutt = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-
---Properties:
-
 fuckoff.Name = "fuckoff"
 fuckoff.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 fuckoff.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
 load.Name = "load"
 load.Parent = fuckoff
 load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 load.Position = UDim2.new(0.458854169, 0, 0.402948409, 0)
 load.Size = UDim2.new(0, 157, 0, 157)
-
 UICorner.Parent = load
-
 TextLabel.Parent = load
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
@@ -312,15 +301,12 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
-
 main.Name = "main"
 main.Parent = fuckoff
 main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 main.Position = UDim2.new(0.00937500037, 0, 0.331695288, 0)
 main.Size = UDim2.new(0, 398, 0, 273)
-
 UICorner_2.Parent = main
-
 TextLabel_2.Parent = main
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
@@ -332,7 +318,6 @@ TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
-
 espbutt.Name = "espbutt"
 espbutt.Parent = main
 espbutt.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
@@ -342,17 +327,13 @@ espbutt.Font = Enum.Font.SourceSans
 espbutt.Text = "ESP"
 espbutt.TextColor3 = Color3.fromRGB(0, 0, 0)
 espbutt.TextSize = 14.000
-
 UICorner_3.Parent = espbutt
-
 esp.Name = "esp"
 esp.Parent = main
 esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 esp.Position = UDim2.new(-0.00155406178, 0, 1.03865504, 0)
 esp.Size = UDim2.new(0, 123, 0, 35)
-
 UICorner_4.Parent = esp
-
 esptxt.Name = "esptxt"
 esptxt.Parent = esp
 esptxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -364,9 +345,7 @@ esptxt.Text = "ESP:"
 esptxt.TextColor3 = Color3.fromRGB(0, 0, 0)
 esptxt.TextSize = 20.000
 esptxt.TextWrapped = true
-
 UICorner_5.Parent = esptxt
-
 esptxt1.Name = "esptxt1"
 esptxt1.Parent = esp
 esptxt1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -378,17 +357,13 @@ esptxt1.Text = "OFF"
 esptxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
 esptxt1.TextSize = 20.000
 esptxt1.TextWrapped = true
-
 UICorner_6.Parent = esptxt1
-
 aimbot.Name = "aimbot"
 aimbot.Parent = main
 aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 aimbot.Position = UDim2.new(0.325683206, 0, 1.03865504, 0)
 aimbot.Size = UDim2.new(0, 130, 0, 35)
-
 UICorner_7.Parent = aimbot
-
 aimbottxt.Name = "aimbottxt"
 aimbottxt.Parent = aimbot
 aimbottxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -401,9 +376,7 @@ aimbottxt.TextColor3 = Color3.fromRGB(0, 0, 0)
 aimbottxt.TextScaled = true
 aimbottxt.TextSize = 20.000
 aimbottxt.TextWrapped = true
-
 UICorner_8.Parent = aimbottxt
-
 aimbottxt1.Name = "aimbottxt1"
 aimbottxt1.Parent = aimbot
 aimbottxt1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -415,17 +388,13 @@ aimbottxt1.Text = "OFF"
 aimbottxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
 aimbottxt1.TextSize = 20.000
 aimbottxt1.TextWrapped = true
-
 UICorner_9.Parent = aimbottxt1
-
 silentaim.Name = "silentaim"
 silentaim.Parent = main
 silentaim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 silentaim.Position = UDim2.new(0.690004826, 0, 1.03499198, 0)
 silentaim.Size = UDim2.new(0, 123, 0, 35)
-
 UICorner_10.Parent = silentaim
-
 silentaimtxt.Name = "silentaimtxt"
 silentaimtxt.Parent = silentaim
 silentaimtxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -438,9 +407,7 @@ silentaimtxt.TextColor3 = Color3.fromRGB(0, 0, 0)
 silentaimtxt.TextScaled = true
 silentaimtxt.TextSize = 20.000
 silentaimtxt.TextWrapped = true
-
 UICorner_11.Parent = silentaimtxt
-
 silentaimtxt1.Name = "silentaimtxt1"
 silentaimtxt1.Parent = silentaim
 silentaimtxt1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -452,9 +419,7 @@ silentaimtxt1.Text = "OFF"
 silentaimtxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
 silentaimtxt1.TextSize = 20.000
 silentaimtxt1.TextWrapped = true
-
 UICorner_12.Parent = silentaimtxt1
-
 aimbotbutt.Name = "aimbotbutt"
 aimbotbutt.Parent = main
 aimbotbutt.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
@@ -464,9 +429,7 @@ aimbotbutt.Font = Enum.Font.SourceSans
 aimbotbutt.Text = "AimBot"
 aimbotbutt.TextColor3 = Color3.fromRGB(0, 0, 0)
 aimbotbutt.TextSize = 14.000
-
 UICorner_13.Parent = aimbotbutt
-
 silentaimbutt.Name = "silentaimbutt"
 silentaimbutt.Parent = main
 silentaimbutt.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
@@ -476,25 +439,18 @@ silentaimbutt.Font = Enum.Font.SourceSans
 silentaimbutt.Text = "Silent Aim"
 silentaimbutt.TextColor3 = Color3.fromRGB(0, 0, 0)
 silentaimbutt.TextSize = 14.000
-
 UICorner_14.Parent = silentaimbutt
-
--- Scripts:
-
-local function EEZLR_fake_script() -- espbutt.LocalScript 
+local function EEZLR_fake_script()
 	local script = Instance.new('LocalScript', espbutt)
-
 	_G.chams = false
-	local Players = game:GetService("Players") -- variable to get the players in the game
-	
+	local Players = game:GetService("Players")
 	script.Parent.MouseButton1Click:Connect(function()
 		if _G.chams == false then
 			_G.chams = true
 			script.Parent.Parent.esp.esptxt1.Text = "ON"
 			script.Parent.Parent.esp.esptxt1.TextColor3 = Color3.fromRGB(0, 255, 0)
-			--- Chams
-			function CreateGui(name,parent,face) -- function that creates the Chams
-				local SurfaceGui = Instance.new("SurfaceGui",parent) --- Creates a SurfaceGui in the game
+			function CreateGui(name,parent,face)
+				local SurfaceGui = Instance.new("SurfaceGui",parent)
 				SurfaceGui.Parent = parent
 				SurfaceGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 				SurfaceGui.Face = Enum.NormalId[face]
@@ -503,15 +459,15 @@ local function EEZLR_fake_script() -- espbutt.LocalScript
 				SurfaceGui.Name = name
 				SurfaceGui.AlwaysOnTop = true
 				local Frame = Instance.new("Frame",SurfaceGui)
-				Frame.BackgroundColor3 = Color3.fromRGB(85, 170, 255) -- colour for the surfacgui
+				Frame.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
 				Frame.Size = UDim2.new(1,0,1,0)
 			end
 	
 			while wait(1) do
-				for i,v in pairs (Players:GetPlayers()) do --- gets all the players in the game and loops through them
+				for i,v in pairs (Players:GetPlayers()) do 
 					if v ~= Players.LocalPlayer and v.Character ~= nil and v.Character:FindFirstChild("Head") and _G.chams and v.Character.Head:FindFirstChild("cham") == nil and v.TeamColor ~= Players.LocalPlayer.TeamColor then --- Checks to check if the player is appropiate to make a cham
-						for i,v in pairs (v.Character:GetChildren()) do -- looping through every child in the character of the player
-							if v:IsA("MeshPart") or v.Name == "Head" then -- checking if the child is a body part
+						for i,v in pairs (v.Character:GetChildren()) do
+							if v:IsA("MeshPart") or v.Name == "Head" then 
 								CreateGui("cham",v,"Back")
 								CreateGui("cham",v,"Front")
 								CreateGui("cham",v,"Top")
@@ -532,7 +488,7 @@ local function EEZLR_fake_script() -- espbutt.LocalScript
 	end)
 end
 coroutine.wrap(EEZLR_fake_script)()
-local function ATUZCM_fake_script() -- aimbotbutt.LocalScript 
+local function ATUZCM_fake_script()
 	local script = Instance.new('LocalScript', aimbotbutt)
 
 	_G.aimbot = false
@@ -545,8 +501,8 @@ local function ATUZCM_fake_script() -- aimbotbutt.LocalScript
 			script.Parent.Parent.aimbot.aimbottxt1.TextColor3 = Color3.fromRGB(0, 255, 0)
 			script.Parent.Parent.aimbot.aimbottxt1.Text = "ON"
 			function closestplayer()
-				local dist = math.huge -- math.huge means a really large number, 1M+.
-				local target = nil --- nil means no value
+				local dist = math.huge 
+				local target = nil 
 				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
 					if v ~= localplayer then
 						if v.Character and v.Character:FindFirstChild("Head") and v.TeamColor ~= localplayer.TeamColor and _G.aimbot and v.Character.Humanoid.Health > 0 then --- creating the checks
@@ -574,7 +530,7 @@ local function ATUZCM_fake_script() -- aimbotbutt.LocalScript
 	}
 	
 	local UIS = game:GetService("UserInputService")
-	local aiming = false --- this toggle will make it so we lock on to the person when we press our keybind
+	local aiming = false 
 	
 	UIS.InputBegan:Connect(function(inp)
 		if inp.UserInputType == settings.keybind then
@@ -583,21 +539,20 @@ local function ATUZCM_fake_script() -- aimbotbutt.LocalScript
 	end)
 	
 	UIS.InputEnded:Connect(function(inp)
-		if inp.UserInputType == settings.keybind then ---- when we stop pressing the keybind it would unlock off the player
+		if inp.UserInputType == settings.keybind then 
 			aiming = false
 		end
 	end)
 	
 	game:GetService("RunService").RenderStepped:Connect(function()
 		if aiming then
-			camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) -- locks into the HEAD
+			camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) 
 		end
 	end)
 end
 coroutine.wrap(ATUZCM_fake_script)()
-local function PTIOZ_fake_script() -- silentaimbutt.LocalScript 
+local function PTIOZ_fake_script()
 	local script = Instance.new('LocalScript', silentaimbutt)
-
 	_G.silentaim = false
 	script.Parent.MouseButton1Click:Connect(function()
 		if _G.silentaim == false then
@@ -610,7 +565,6 @@ local function PTIOZ_fake_script() -- silentaimbutt.LocalScript
 			script.Parent.Parent.silentaim.silentaimtxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
 		end
 	end)
-	
 	local players = game:GetService("Players")
 	local plr = players.LocalPlayer
 	local mouse = plr:GetMouse()
@@ -655,7 +609,7 @@ local function PTIOZ_fake_script() -- silentaimbutt.LocalScript
 	end
 end
 coroutine.wrap(PTIOZ_fake_script)()
-local function BIGBCWB_fake_script() -- fuckoff.LocalScript 
+local function BIGBCWB_fake_script()
 	local script = Instance.new('LocalScript', fuckoff)
 
 	script.Parent.main.Visible = false
@@ -665,4 +619,52 @@ local function BIGBCWB_fake_script() -- fuckoff.LocalScript
 	script.Parent.load.Visible = false
 end
 coroutine.wrap(BIGBCWB_fake_script)()
+else
+	local fuckoffnotsupported = Instance.new("ScreenGui")
+	local loadnotsupported = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local oq = Instance.new("TextLabel")
+	fuckoffnotsupported.Name = "fuckoffnotsupported"
+	fuckoffnotsupported.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	fuckoffnotsupported.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	loadnotsupported.Name = "loadnotsupported"
+	loadnotsupported.Parent = fuckoffnotsupported
+	loadnotsupported.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	loadnotsupported.Position = UDim2.new(0.458854169, 0, 0.402948409, 0)
+	loadnotsupported.Size = UDim2.new(0, 157, 0, 157)
+	UICorner.Parent = loadnotsupported
+	TextLabel.Parent = loadnotsupported
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.Position = UDim2.new(-0.133757964, 0, 0.369426727, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 41)
+	TextLabel.Font = Enum.Font.SourceSansBold
+	TextLabel.Text = "Fuck Off"
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+	oq.Name = "oq"
+	oq.Parent = loadnotsupported
+	oq.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	oq.BackgroundTransparency = 1.000
+	oq.Position = UDim2.new(0.0318471342, 0, 0.700636983, 0)
+	oq.Size = UDim2.new(0, 147, 0, 32)
+	oq.Font = Enum.Font.SourceSansBold
+	oq.Text = "Your Game Is Not Supported."
+	oq.TextColor3 = Color3.fromRGB(0, 0, 0)
+	oq.TextScaled = true
+	oq.TextSize = 14.000
+	oq.TextWrapped = true
+	local function CNWC_fake_script()
+		local script = Instance.new('LocalScript', fuckoffnotsupported)
+		script.Parent.loadnotsupported.Visible = true
+		script.Parent.loadnotsupported.oq.Visible = false
+		wait(2.6)
+		script.Parent.loadnotsupported.oq.Visible = true
+		wait(2.6)
+		script.Parent.loadnotsupported.Visible = false
+	end
+	coroutine.wrap(CNWC_fake_script)()
 end
