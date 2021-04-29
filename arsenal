@@ -1,0 +1,369 @@
+local fuckoff = Instance.new("ScreenGui")
+local load = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local main = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local espbutt = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local esp = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local esptxt = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local esptxt1 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local aimbot = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local aimbottxt = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local aimbottxt1 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local silentaim = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local silentaimtxt = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local silentaimtxt1 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local aimbotbutt = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local silentaimbutt = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+fuckoff.Name = "fuckoff"
+fuckoff.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+fuckoff.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+load.Name = "load"
+load.Parent = fuckoff
+load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+load.Position = UDim2.new(0.458854169, 0, 0.402948409, 0)
+load.Size = UDim2.new(0, 157, 0, 157)
+UICorner.Parent = load
+TextLabel.Parent = load
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.133757964, 0, 0.369426727, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 41)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Fuck Off"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+main.Name = "main"
+main.Parent = fuckoff
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.00937500037, 0, 0.331695288, 0)
+main.Size = UDim2.new(0, 398, 0, 273)
+UICorner_2.Parent = main
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.0982388407, 0, 0.0287673734, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 30)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Fuck Off"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+espbutt.Name = "espbutt"
+espbutt.Parent = main
+espbutt.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+espbutt.Position = UDim2.new(0.0325672515, 0, 0.161172196, 0)
+espbutt.Size = UDim2.new(0, 76, 0, 50)
+espbutt.Font = Enum.Font.SourceSans
+espbutt.Text = "ESP"
+espbutt.TextColor3 = Color3.fromRGB(0, 0, 0)
+espbutt.TextSize = 14.000
+UICorner_3.Parent = espbutt
+esp.Name = "esp"
+esp.Parent = main
+esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+esp.Position = UDim2.new(-0.00155406178, 0, 1.03865504, 0)
+esp.Size = UDim2.new(0, 123, 0, 35)
+UICorner_4.Parent = esp
+esptxt.Name = "esptxt"
+esptxt.Parent = esp
+esptxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+esptxt.BackgroundTransparency = 1.000
+esptxt.Position = UDim2.new(0.040650405, 0, -0.0168498755, 0)
+esptxt.Size = UDim2.new(0, 61, 0, 35)
+esptxt.Font = Enum.Font.SourceSans
+esptxt.Text = "ESP:"
+esptxt.TextColor3 = Color3.fromRGB(0, 0, 0)
+esptxt.TextSize = 20.000
+esptxt.TextWrapped = true
+UICorner_5.Parent = esptxt
+esptxt1.Name = "esptxt1"
+esptxt1.Parent = esp
+esptxt1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+esptxt1.BackgroundTransparency = 1.000
+esptxt1.Position = UDim2.new(0.394308925, 0, -0.0168498755, 0)
+esptxt1.Size = UDim2.new(0, 62, 0, 35)
+esptxt1.Font = Enum.Font.SourceSans
+esptxt1.Text = "OFF"
+esptxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
+esptxt1.TextSize = 20.000
+esptxt1.TextWrapped = true
+UICorner_6.Parent = esptxt1
+aimbot.Name = "aimbot"
+aimbot.Parent = main
+aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimbot.Position = UDim2.new(0.325683206, 0, 1.03865504, 0)
+aimbot.Size = UDim2.new(0, 130, 0, 35)
+UICorner_7.Parent = aimbot
+aimbottxt.Name = "aimbottxt"
+aimbottxt.Parent = aimbot
+aimbottxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimbottxt.BackgroundTransparency = 1.000
+aimbottxt.Position = UDim2.new(0.065040648, 0, -0.01684919, 0)
+aimbottxt.Size = UDim2.new(0, 52, 0, 35)
+aimbottxt.Font = Enum.Font.SourceSans
+aimbottxt.Text = "AimBot:"
+aimbottxt.TextColor3 = Color3.fromRGB(0, 0, 0)
+aimbottxt.TextScaled = true
+aimbottxt.TextSize = 20.000
+aimbottxt.TextWrapped = true
+UICorner_8.Parent = aimbottxt
+aimbottxt1.Name = "aimbottxt1"
+aimbottxt1.Parent = aimbot
+aimbottxt1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimbottxt1.BackgroundTransparency = 1.000
+aimbottxt1.Position = UDim2.new(0.434959322, 0, -0.0168498755, 0)
+aimbottxt1.Size = UDim2.new(0, 62, 0, 35)
+aimbottxt1.Font = Enum.Font.SourceSans
+aimbottxt1.Text = "OFF"
+aimbottxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
+aimbottxt1.TextSize = 20.000
+aimbottxt1.TextWrapped = true
+UICorner_9.Parent = aimbottxt1
+silentaim.Name = "silentaim"
+silentaim.Parent = main
+silentaim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+silentaim.Position = UDim2.new(0.690004826, 0, 1.03499198, 0)
+silentaim.Size = UDim2.new(0, 123, 0, 35)
+UICorner_10.Parent = silentaim
+silentaimtxt.Name = "silentaimtxt"
+silentaimtxt.Parent = silentaim
+silentaimtxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+silentaimtxt.BackgroundTransparency = 1.000
+silentaimtxt.Position = UDim2.new(0.0487804897, 0, 0.0117222387, 0)
+silentaimtxt.Size = UDim2.new(0, 66, 0, 35)
+silentaimtxt.Font = Enum.Font.SourceSans
+silentaimtxt.Text = "Silent Aim:"
+silentaimtxt.TextColor3 = Color3.fromRGB(0, 0, 0)
+silentaimtxt.TextScaled = true
+silentaimtxt.TextSize = 20.000
+silentaimtxt.TextWrapped = true
+UICorner_11.Parent = silentaimtxt
+silentaimtxt1.Name = "silentaimtxt1"
+silentaimtxt1.Parent = silentaim
+silentaimtxt1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+silentaimtxt1.BackgroundTransparency = 1.000
+silentaimtxt1.Position = UDim2.new(0.491869867, 0, 0.0117215533, 0)
+silentaimtxt1.Size = UDim2.new(0, 62, 0, 35)
+silentaimtxt1.Font = Enum.Font.SourceSans
+silentaimtxt1.Text = "OFF"
+silentaimtxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
+silentaimtxt1.TextSize = 20.000
+silentaimtxt1.TextWrapped = true
+UICorner_12.Parent = silentaimtxt1
+aimbotbutt.Name = "aimbotbutt"
+aimbotbutt.Parent = main
+aimbotbutt.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+aimbotbutt.Position = UDim2.new(0.256185353, 0, 0.161172196, 0)
+aimbotbutt.Size = UDim2.new(0, 76, 0, 50)
+aimbotbutt.Font = Enum.Font.SourceSans
+aimbotbutt.Text = "AimBot"
+aimbotbutt.TextColor3 = Color3.fromRGB(0, 0, 0)
+aimbotbutt.TextSize = 14.000
+UICorner_13.Parent = aimbotbutt
+silentaimbutt.Name = "silentaimbutt"
+silentaimbutt.Parent = main
+silentaimbutt.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+silentaimbutt.Position = UDim2.new(0.497391403, 0, 0.161172196, 0)
+silentaimbutt.Size = UDim2.new(0, 76, 0, 50)
+silentaimbutt.Font = Enum.Font.SourceSans
+silentaimbutt.Text = "Silent Aim"
+silentaimbutt.TextColor3 = Color3.fromRGB(0, 0, 0)
+silentaimbutt.TextSize = 14.000
+UICorner_14.Parent = silentaimbutt
+local function EEZLR_fake_script()
+	local script = Instance.new('LocalScript', espbutt)
+	_G.chams = false
+	local Players = game:GetService("Players")
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.chams == false then
+			_G.chams = true
+			script.Parent.Parent.esp.esptxt1.Text = "ON"
+			script.Parent.Parent.esp.esptxt1.TextColor3 = Color3.fromRGB(0, 255, 0)
+			function CreateGui(name,parent,face)
+				local SurfaceGui = Instance.new("SurfaceGui",parent)
+				SurfaceGui.Parent = parent
+				SurfaceGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+				SurfaceGui.Face = Enum.NormalId[face]
+				SurfaceGui.LightInfluence = 0
+				SurfaceGui.ResetOnSpawn = false
+				SurfaceGui.Name = name
+				SurfaceGui.AlwaysOnTop = true
+				local Frame = Instance.new("Frame",SurfaceGui)
+				Frame.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+				Frame.Size = UDim2.new(1,0,1,0)
+			end
+	
+			while wait(1) do
+				for i,v in pairs (Players:GetPlayers()) do 
+					if v ~= Players.LocalPlayer and v.Character ~= nil and v.Character:FindFirstChild("Head") and _G.chams and v.Character.Head:FindFirstChild("cham") == nil and v.TeamColor ~= Players.LocalPlayer.TeamColor then --- Checks to check if the player is appropiate to make a cham
+						for i,v in pairs (v.Character:GetChildren()) do
+							if v:IsA("MeshPart") or v.Name == "Head" then 
+								CreateGui("cham",v,"Back")
+								CreateGui("cham",v,"Front")
+								CreateGui("cham",v,"Top")
+								CreateGui("cham",v,"Bottom")
+								CreateGui("cham",v,"Right")
+								CreateGui("cham",v,"Left")
+							end
+						end
+	
+					end
+				end
+			end
+		else 
+			_G.chams = false
+			script.Parent.Parent.esp.esptxt1.Text = "OFF"
+			script.Parent.Parent.esp.esptxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(EEZLR_fake_script)()
+local function ATUZCM_fake_script()
+	local script = Instance.new('LocalScript', aimbotbutt)
+
+	_G.aimbot = false
+	local camera = game.Workspace.CurrentCamera
+	local localplayer = game:GetService("Players").LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.aimbot == false then
+			_G.aimbot = true
+			script.Parent.Parent.aimbot.aimbottxt1.TextColor3 = Color3.fromRGB(0, 255, 0)
+			script.Parent.Parent.aimbot.aimbottxt1.Text = "ON"
+			function closestplayer()
+				local dist = math.huge 
+				local target = nil 
+				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+					if v ~= localplayer then
+						if v.Character and v.Character:FindFirstChild("Head") and v.TeamColor ~= localplayer.TeamColor and _G.aimbot and v.Character.Humanoid.Health > 0 then --- creating the checks
+							local magnitude = (v.Character.Head.Position - localplayer.Character.Head.Position).magnitude
+							if magnitude < dist then
+								dist = magnitude
+								target = v
+							end
+	
+						end
+					end
+				end
+				return target
+			end
+	
+		else
+			_G.aimbot = false
+			script.Parent.Parent.aimbot.aimbottxt1.Text = "OFF"
+			script.Parent.Parent.aimbot.aimbottxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end)
+	
+	local settings = {
+		keybind = Enum.UserInputType.MouseButton2
+	}
+	
+	local UIS = game:GetService("UserInputService")
+	local aiming = false 
+	
+	UIS.InputBegan:Connect(function(inp)
+		if inp.UserInputType == settings.keybind then
+			aiming = true
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(inp)
+		if inp.UserInputType == settings.keybind then 
+			aiming = false
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if aiming then
+			camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) 
+		end
+	end)
+end
+coroutine.wrap(ATUZCM_fake_script)()
+local function PTIOZ_fake_script()
+	local script = Instance.new('LocalScript', silentaimbutt)
+	_G.silentaim = false
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.silentaim == false then
+			_G.silentaim = true
+			script.Parent.Parent.silentaim.silentaimtxt1.Text = "ON"
+			script.Parent.Parent.silentaim.silentaimtxt1.TextColor3 = Color3.fromRGB(0, 255, 0)
+		else
+			_G.silentaim = false
+			script.Parent.Parent.silentaim.silentaimtxt1.Text = "OFF"
+			script.Parent.Parent.silentaim.silentaimtxt1.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end)
+	local players = game:GetService("Players")
+	local plr = players.LocalPlayer
+	local mouse = plr:GetMouse()
+	local camera = game.Workspace.CurrentCamera
+	local teamcheck = true
+	
+	local function ClosestPlayerToMouse()
+		local target = nil
+		local dist = math.huge
+		for i,v in pairs(players:GetPlayers()) do
+			if v.Name ~= plr.Name then
+				if v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") and _G.silentaim and teamcheck and v.TeamColor ~= plr.TeamColor then
+					local screenpoint = camera:WorldToScreenPoint(v.Character.HumanoidRootPart.Position)
+					local check = (Vector2.new(mouse.X,mouse.Y)-Vector2.new(screenpoint.X,screenpoint.Y)).magnitude
+	
+					if check < dist then
+						target  = v
+						dist = check
+					end
+				end
+			end
+		end
+	
+		return target 
+	end
+	
+	local mt = getrawmetatable(game)
+	local namecall = mt.__namecall
+	setreadonly(mt,false)
+	
+	mt.__namecall = function(self,...)
+		local args = {...}
+		local method = getnamecallmethod()
+	
+		if tostring(self) == "HitPart" and method == "FireServer" then
+			print("so?")
+			args[1] = ClosestPlayerToMouse().Character.Head
+			args[2] = ClosestPlayerToMouse().Character.Head.Position
+			return self.FireServer(self, unpack(args))
+		end
+		return namecall(self,...)
+	end
+end
+coroutine.wrap(PTIOZ_fake_script)()
+local function BIGBCWB_fake_script()
+	local script = Instance.new('LocalScript', fuckoff)
+
+	script.Parent.main.Visible = false
+	script.Parent.load.Visible = true
+	wait(2.6)
+	script.Parent.main.Visible = true
+	script.Parent.load.Visible = false
+end
+coroutine.wrap(BIGBCWB_fake_script)()
